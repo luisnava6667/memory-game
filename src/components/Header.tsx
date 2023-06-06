@@ -22,7 +22,7 @@ export const Header: FC = () => {
         <GiBrain size={30} />
       </div>
       <div
-        className=' items-center gap-1  absolute right-5 top-5 cursor-pointer z-20'
+        className=' items-center gap-1  absolute right-5 top-5  sm:right-24 sm:top-9 cursor-pointer z-20'
         onClick={handleChangeTheme}>
         {modeLight ? <BsFillMoonFill size={20} /> : <BsFillSunFill size={20} />}
       </div>
